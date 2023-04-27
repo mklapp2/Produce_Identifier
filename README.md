@@ -1,9 +1,9 @@
 # Produce_Identifier
 This project allows for the training and use of a machine learning model to identify fruits and vegetables in images.
 
-User Guide
+#User Guide
 
-Setup/Installation Steps:
+##Setup/Installation Steps:
 1.	Clone the Produce Identifier repo to the desired install location. Note the location of this directory, which will be referred to as the Produce_Identifier directory.
 2.	Install miniconda or Anaconda if one of these is not already installed.
 a.	Download an appropriate installer here: https://docs.conda.io/en/latest/miniconda.html#latest-miniconda-installer-links
@@ -14,7 +14,7 @@ c.	Follow the prompts to complete the installation of miniconda.
 5.	Wait for the project dependencies to install.
 6.	Congratulations, the product can now be run!
 
-Running the Product:
+##Running the Product:
 1.	Navigate to the Produce_Identifier directory. Open the User-Submissions directory found within. Add any user input photos of produce to identify into this folder. Note: Only produce types found in the training data set can be identified.
 2.	Open an anaconda prompt and navigate to the Produce_Identifier directory.
 3.	Run the following command: conda activate produce_identifier_env
@@ -26,7 +26,7 @@ Running the Product:
 9.	Scroll down to the User Supplied Data at the bottom of the application interface.
 10.	Go to the “Selected user file” drop-down and select the image file you wish for the model to identify. The application will display the image, predicted label, predicted label confidence, and a graph of the top five predicted labels and their confidence levels.
 
-Optional Actions:
+##Optional Actions:
 Selecting a different trained model:
 1.	Scroll to the ‘Settings’ cell output.
 2.	Click the ‘Selected saved model’ dropdown and select the desired model. Note that the models are automatically named based on the time at which they were created. 
